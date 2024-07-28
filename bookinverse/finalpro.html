@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookinverse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>bookinverse</h1>
+    </div>
+
+    <div class="container">
+        <div class="bookcontainer">
+            <h2>The Winner Stands Alone</h2>
+            <h4>Paulo Coelho</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias perferendis id error ut asperiores atque quia? Aspernatur esse saepe praesentium?></p>
+            <button onclick="deletebook(event)">Delete</button>
+            
+            
+         </div>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="pluspop">
+        <h2 >Add book </h2>
+        <form>
+            <input type="text" placeholder="Book title" id="book-title-input">
+            <input type="text" placeholder="Book author" id="book-author-input">
+            <textarea placeholder="Short description" id="book-description-input"></textarea>
+            <button id="add-book" onclick="def(show)">Add</button>
+            <button id="cancel-popup">Delete</button>
+        </form>
+    </div>
+
+    <button class="addbutton" id="add-popup-button">+</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
