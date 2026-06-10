@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Student Portfolio</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 20px;
+      background: #f5f5f5;
+    }
+    header, footer {
+      background: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    section {
+      background: white;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Semantic Tag: Header -->
+  <header>
+    <h1>My Student Portfolio</h1>
+    <p>Welcome to my HTML project</p>
+  </header>
+
+  <!-- Navigation using link -->
+  <nav>
+    <a href="#about">About</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#education">Education</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Section 1 -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am an MCA student learning web development.</p>
+
+    <!-- Image tag -->
+    <img src="https://via.placeholder.com/150" width="150" height="150" alt="Profile Image">
+  </section>
+
+  <!-- Section 2 -->
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <!-- List tag -->
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <!-- Details & Summary -->
+    <details>
+      <summary>More Skills Info</summary>
+      <p>I am also learning GitHub and React basics.</p>
+    </details>
+  </section>
+
+  <!-- Section 3 -->
+  <section id="education">
+    <h2>Education</h2>
+
+    <!-- Table tag -->
+    <table>
+      <tr>
+        <th>Year passed out</th>
+        <th>Course</th>
+        <th>Institute</th>
+      </tr>
+      <tr>
+        <td>2023</td>
+        <td>BCA</td>
+        <td>St.Antonny's College of arts and sciences</td>
+      </tr>
+      <tr>
+        <td>2026</td>
+        <td>MCA</td>
+        <td>PSNA College of Engineering and Technology</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Multimedia -->
+  <section>
+    <h2>Cartoon Video</h2>
+
+    <!-- Video tag -->
+    <video width="300" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support video.
+    </video>
+
+    <br><br>
+
+    
+  </section>
+
+  <!-- Form -->
+  <section id="contact">
+    <h2>Contact Form</h2>
+
+    <form>
+      <label>Name:</label>
+      <input type="text" name="name"><br><br>
+
+      <label>Email:</label>
+      <input type="email" name="email"><br><br>
+
+      <label>Message:</label><br>
+      <textarea rows="4" cols="30"></textarea><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Link using id -->
+  <footer>
+    <p>Go to <a href="#about">About Section</a></p>
+    <p>© 2026 My Portfolio</p>
+  </footer>
+
+</body>
+</html>
